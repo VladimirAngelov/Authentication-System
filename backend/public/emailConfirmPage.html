@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background: #5a9def;
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+            'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+            sans-serif;
+        }
+
+        #title {
+            padding-top: 20%;
+            color: white
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="title">
+    <h1>You confirm your email successfully</h1>
+    <h2 id="countDown">Redirect after 3..</h2>
+</div>
+
+<script>
+    let timeLeft = 2
+    const countDown = setInterval(() => {
+        if  (timeLeft <= 0){
+            clearInterval(countDown);
+        }
+        document.getElementById("countDown").innerHTML = `Redirect after ${timeLeft}..`;
+        timeLeft -= 1;
+    }, 1000);
+
+    setTimeout(() => {
+        window.location.replace("http://localhost:3001/login")
+    }, 3000)
+</script>
+
+</body>
+</html>
