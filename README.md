@@ -25,7 +25,6 @@ The system have:
     * COOKIE_NAME='cookieName'
 * Run the server
 ### `npm start`
-Server will run on http://localhost:5000
 
 * Navigate to client(React) directory
 ### `cd frontend`
@@ -33,4 +32,3 @@ Server will run on http://localhost:5000
 ### `npm install`
 * Run the application
 ### `npm start`
-The application will run on http://localhost:3001
