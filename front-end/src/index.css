@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #5a9def;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+.App {
+    padding: 20px 110px 0 120px;
+    text-align: center;
+}
