@@ -28,7 +28,9 @@ export const PasswordInfoContainer = styled.div`
 export const Container = styled.div`
   text-align: center;
   margin-top: 10%;
-  margin-left: 37%;
+  display: flex;
+  justify-content: center;
+  //margin-left: 37%;
 `
 
 export const Form = styled.form`
@@ -36,7 +38,7 @@ export const Form = styled.form`
   border-radius: 10px;
   width: 300px;
   text-align: center;
-  top: 50%;
+  // top: 50%;
   box-shadow: 0 2px 15px #1B1B1B;
 `
 
